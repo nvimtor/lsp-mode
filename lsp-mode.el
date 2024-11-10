@@ -5420,9 +5420,9 @@ If EXCLUDE-DECLARATION is non-nil, request the server to include declarations."
               (lsp-help-mode)
               (with-help-window lsp-help-buf-name
                 (insert
-		 (mapconcat 'string-trim-right
-			    (split-string (lsp--render-on-hover-content contents t) "\n")
-			    "\n"))))
+     (mapconcat 'string-trim-right
+          (split-string (lsp--render-on-hover-content contents t) "\n")
+          "\n"))))
             (run-mode-hooks)))
       (lsp--info "No content at point."))))
 
@@ -7074,8 +7074,8 @@ server. WORKSPACE is the active workspace."
         leftovers body-length body chunk)
     (lambda (_proc input)
       (setf chunk (if (s-blank? leftovers)
-                      (encode-coding-string input 'utf-8-unix)
-                    (concat leftovers (encode-coding-string input 'utf-8-unix))))
+                      (encode-coding-string input 'utf-8-unix t)
+                    (concat leftovers (encode-coding-string input 'utf-8-unix t))))
 
       (let (messages)
         (while (not (s-blank? chunk))
