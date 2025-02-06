@@ -1078,6 +1078,14 @@
     "debugger": "Not available"
   },
   {
+    "name": "smithy",
+    "full-name": "Smithy IDL",
+    "server-name": "smithy-language-server",
+    "server-url": "https://github.com/smithy-lang/smithy-language-server",
+    "installation-url": "https://github.com/smithy-lang/smithy-language-server/releases",
+    "debugger": "Not available"
+  },
+  {
     "name": "solargraph",
     "full-name": "Ruby (Solargraph)",
     "server-name": "solargraph",
