@@ -1,4 +1,4 @@
-;;; lsp-smithy.el --- lsp-mode nix integration    -*- lexical-binding: t; -*-
+;;; lsp-smithy.el --- lsp-mode Smithy IDL integration    -*- lexical-binding: t; -*-
 
 ;; Copyright (C) 2020 lsp-mode maintainers
 
