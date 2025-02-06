@@ -167,6 +167,7 @@ nav:
     - Scala: https://emacs-lsp.github.io/lsp-metals
     - Semgrep: page/lsp-semgrep.md
     - ShaderLab: page/lsp-shader.md
+    - Smithy IDL: page/lsp-smithy.md
     - SQL (sql): page/lsp-sql.md
     - SQL (sqls): page/lsp-sqls.md
     - Standard ML (Millet): page/lsp-sml.md
